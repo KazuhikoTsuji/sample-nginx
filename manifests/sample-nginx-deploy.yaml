@@ -7,7 +7,7 @@ metadata:
   name: sample-nginx-deploy
   namespace: sample-nginx
 spec:
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
       app: sample-nginx-deploy
